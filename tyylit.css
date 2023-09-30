@@ -7,9 +7,15 @@ body {
     text-align: center;
     font-size: 3vw;
   }
-
-  #Topnav {
+  
+  .topnav a {
+    text-align:center;
+    text-decoration: none;
+    background-color: rgb(59, 56, 56);
     color: rgb(214, 220, 229);
-    text-align: center;
+    padding-right: 8vw;
+    padding-left: 8vw;
+    padding-top: 4vw;
+    padding-bottom: 1vw;
     font-size: 1.5vw;
   }
