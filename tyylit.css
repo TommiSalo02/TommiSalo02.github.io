@@ -1,9 +1,15 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(47, 85, 151);
   }
   
   h1 {
-    color: navy;
+    color: rgb(214, 220, 229);
     text-align: center;
     font-size: 3vw;
+  }
+
+  #Topnav {
+    color: rgb(214, 220, 229);
+    text-align: center;
+    font-size: 1.5vw;
   }
