@@ -13,9 +13,10 @@ body {
     text-decoration: none;
     background-color: rgb(59, 56, 56);
     color: rgb(214, 220, 229);
-    padding-right: 8vw;
-    padding-left: 8vw;
-    padding-top: 4vw;
+    padding-right: 9.20vw;
+    padding-left: 9.20vw;
+    padding-top: 2vw;
     padding-bottom: 1vw;
     font-size: 1.5vw;
+    margin: -1vw;
   }
