@@ -6,6 +6,7 @@ body {
     color: rgb(214, 220, 229);
     text-align: center;
     font-size: 3vw;
+    font-family: "Times New Roman", Times, serif;
   }
   
   .topnav a {
@@ -15,8 +16,9 @@ body {
     color: rgb(214, 220, 229);
     padding-right: 9.15%;
     padding-left: 9.15%;
-    padding-top: 2vw;
-    padding-bottom: 1vw;
+    padding-top: 100%;
+    padding-bottom: 1.5%;
     font-size: 1.5vw;
-    margin: -1vw;
-  }
+    font-family: "Times New Roman", Times, serif;
+    margin: -1%;
+  } }
