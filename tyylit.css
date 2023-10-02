@@ -5,14 +5,14 @@ body {
   h1 {
     color: rgb(214, 220, 229);
     text-align: center;
-    font-size: 4vw;
+    font-size: 3em;
     font-family: "Times New Roman", Times, serif;
   }
 
   p {    
     color: rgb(214, 220, 229);
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5em;
     font-family: "Times New Roman", Times, serif;
   }
   
@@ -25,7 +25,7 @@ body {
     padding-left: 9.15%;
     padding-top: 100%;
     padding-bottom: 1.5%;
-    font-size: 1.5vw;
+    font-size: 1.2em;
     font-family: "Times New Roman", Times, serif;
     margin: -1%;
   } 
