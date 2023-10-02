@@ -5,7 +5,14 @@ body {
   h1 {
     color: rgb(214, 220, 229);
     text-align: center;
-    font-size: 3vw;
+    font-size: 4vw;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  p {    
+    color: rgb(214, 220, 229);
+    text-align: center;
+    font-size: 2vw;
     font-family: "Times New Roman", Times, serif;
   }
   
