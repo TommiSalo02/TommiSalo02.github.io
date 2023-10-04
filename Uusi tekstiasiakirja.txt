@@ -1,0 +1,20 @@
+  .topnav {
+    display: block;
+    overflow: auto;
+    position: fixed; 
+    padding: 14px 0px;
+    top: 0; 
+    width: 100%; 
+    background-color: rgb(59, 56, 56);
+
+  } 
+
+  .topnav a {
+    color: rgb(214, 220, 229);
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    width: 100%;
+    font-family: "Times New Roman", Times, serif;
+  } 

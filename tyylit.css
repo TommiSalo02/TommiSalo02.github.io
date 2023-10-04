@@ -5,27 +5,34 @@ body {
   h1 {
     color: rgb(214, 220, 229);
     text-align: center;
-    font-size: 3em;
+    font-size: 20px;
     font-family: "Times New Roman", Times, serif;
+    margin-top: 30px;
   }
 
   p {    
     color: rgb(214, 220, 229);
     text-align: center;
-    font-size: 1.5em;
+    font-size: 15px;
     font-family: "Times New Roman", Times, serif;
   }
-  
-  .topnav a {
-    text-align:center;
-    text-decoration: none;
+
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: rgb(59, 56, 56);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
     color: rgb(214, 220, 229);
-    padding-right: 9.15%;
-    padding-left: 9.15%;
-    padding-top: 100%;
-    padding-bottom: 1.5%;
-    font-size: 1.2em;
-    font-family: "Times New Roman", Times, serif;
-    margin: -1%;
-  } 
+    text-align: center;
+    padding: 28px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 100%;
+  }
