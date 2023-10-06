@@ -9,6 +9,8 @@ h1 {
   font-size: 52px;
   font-family: "Times New Roman", Times, serif;
   margin-top: 30px;
+  width: 100%;
+  display: inline-block;
 }
 
 p {
@@ -42,6 +44,11 @@ ul.topnav li a {
   width: 100%;
 }
 
+#sivustonlogo > img {
+width: 143.5px;
+height: 181.5px;
+}
+
 table,
 th,
 td {
@@ -73,7 +80,7 @@ ul {
   text-align: center;
 }
 
-.linkki a{
+.linkki a {
   color: rgb(30, 55, 98);
   text-decoration: none;
 }
@@ -97,6 +104,16 @@ ul {
     float: none;
     width: 100%;
   }
+
+  .koulutus {
+    font-size: 14px;
+  }
+
+  .linkki a {
+    font-size: 14px;
+  }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
