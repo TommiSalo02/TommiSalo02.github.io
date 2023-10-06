@@ -25,3 +25,9 @@
         <a href="harrastukset.html">Harrastukset</a>
         <a href="taitonäyte.html">Taitonäyte</a>
     </div>
+
+    .leipateksti1 {
+  margin: auto;
+  max-width: 50%;
+
+}

@@ -1,84 +1,76 @@
 body {
-    background-color: rgb(47, 85, 151);
-    margin: auto; 
-  }
-  
-  h1 {
-    color: rgb(214, 220, 229);
-    text-align: center;
-    font-size: 52px;
-    font-family: "Times New Roman", Times, serif;
-    margin-top: 30px;
-  }
+  background-color: rgb(47, 85, 151);
+  margin: auto;
+}
 
-  p {    
-    color: rgb(214, 220, 229);
-    text-align: center;
-    font-size: 28px;
-    font-family: "Times New Roman", Times, serif;
-  }
+h1 {
+  color: rgb(214, 220, 229);
+  text-align: center;
+  font-size: 52px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 30px;
+}
 
-  .leipateksti1 {
+p {
+  color: rgb(214, 220, 229);
+  text-align: center;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
   margin: auto;
   max-width: 50%;
-  
 }
 
-  ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(59, 56, 56);
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: inline-block;
-    color: rgb(214, 220, 229);
-    text-align: center;
-    padding: 28px 20px;
-    text-decoration: none;
-    font-size: 26px;
-    width: 100%;
-  }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-h1 {
-  font-size: 32px;
-}
-p {    
-  font-size: 16px;
-}
-ul.topnav li a {
-  padding: 14x 10px;
-  font-size: 16px;
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(59, 56, 56);
 }
 
 ul.topnav li {
-  float: none;
+  float: left;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: rgb(214, 220, 229);
+  text-align: center;
+  padding: 28px 20px;
+  text-decoration: none;
+  font-size: 26px;
   width: 100%;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  ul.topnav li a {
+    padding: 14x 10px;
+    font-size: 16px;
+  }
+
+  ul.topnav li {
+    float: none;
+    width: 100%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
+@media only screen and (min-width: 1200px) {}
