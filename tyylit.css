@@ -112,6 +112,13 @@ ul {
     font-size: 14px;
   }
 
+  table,th,td {
+  font-size: 13px
+  }
+
+  #sivustonlogo > img {
+    padding: 10px 10px;
+    }
 
 }
 
