@@ -1,41 +1,161 @@
 body {
-    background-color: rgb(47, 85, 151);
-  }
-  
+  background-color: rgb(47, 85, 151);
+  margin: auto;
+}
+
+h1 {
+  color: rgb(214, 220, 229);
+  text-align: center;
+  font-size: 52px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 30px;
+  width: 100%;
+  display: inline-block;
+}
+
+p {
+  color: rgb(214, 220, 229);
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  max-width: 50%;
+}
+
+#osio {
+margin: 2%;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(59, 56, 56);
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: rgb(214, 220, 229);
+  text-align: center;
+  padding: 28px 20px;
+  text-decoration: none;
+  font-size: 26px;
+  width: 100%;
+}
+
+#sivustonlogo > img {
+max-width: 100%;
+height: auto;
+padding: 20px 20px;
+}
+
+table,th,td {
+  border: 1px solid;
+  width: 40%;
+  margin: auto;
+  font-size: 26px;
+  color: rgb(214, 220, 229);
+  background-color: rgb(30, 55, 98);
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 2.5%;
+  margin-top: -2.5%;
+}
+
+.koulutus {
+  width: 40%;
+  font-size: 28px;
+  margin: auto;
+  color: rgb(214, 220, 229);
+  text-align: center;
+}
+
+.linkki {
+  width: 40%;
+  font-size: 28px;
+  margin: auto;
+  text-align: center;
+}
+
+.linkki a {
+  color: rgb(30, 55, 98);
+  text-decoration: none;
+}
+
+.footer {
+overflow: hidden;
+background-color: rgb(59, 56, 56);
+color: rgb(214, 220, 229);
+text-align: left;
+padding: 28px 20px;
+text-decoration: none;
+font-size: 26px;
+position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   h1 {
-    color: rgb(214, 220, 229);
-    text-align: center;
-    font-size: 3em;
-    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
   }
 
-  p {    
-    color: rgb(214, 220, 229);
-    text-align: center;
-    font-size: 1.5em;
-    font-family: "Times New Roman", Times, serif;
+  p {
+    font-size: 16px;
   }
-  
-  .topnav a {
-    text-align:center;
-    text-decoration: none;
-    background-color: rgb(59, 56, 56);
-    color: rgb(214, 220, 229);
-    padding-right: 9.15%;
-    padding-left: 9.15%;
-    padding-top: 100%;
-    padding-bottom: 1.5%;
-    font-size: 1.2em;
-    font-family: "Times New Roman", Times, serif;
-    margin: -1%;
-  } 
 
-  .footer
-  {
-    text-align:center;
-    text-decoration: none;
-    background-color: rgb(59, 56, 56);
-    color: rgb(214, 220, 229);
-    font-size: 1.2em;
-    font-family: "Times New Roman", Times, serif;
+  ul.topnav li a {
+    padding: 14x 10px;
+    font-size: 16px;
   }
+
+  ul.topnav li {
+    float: none;
+    width: 100%;
+  }
+
+  .koulutus {
+    font-size: 14px;
+  }
+
+  .linkki a {
+    font-size: 14px;
+  }
+
+  table,th,td {
+  font-size: 13px
+  }
+
+  #sivustonlogo > img {
+    padding: 10px 10px;
+    }
+
+    .footer {
+      padding: 14px 10px;
+      font-size: 16px;
+
+      }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
