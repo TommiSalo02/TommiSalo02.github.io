@@ -29,3 +29,13 @@ body {
     font-family: "Times New Roman", Times, serif;
     margin: -1%;
   } 
+
+  .footer
+  {
+    text-align:center;
+    text-decoration: none;
+    background-color: rgb(59, 56, 56);
+    color: rgb(214, 220, 229);
+    font-size: 1.2em;
+    font-family: "Times New Roman", Times, serif;
+  }
