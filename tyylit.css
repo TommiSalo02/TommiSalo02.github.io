@@ -8,7 +8,7 @@ h1 {
   text-align: center;
   font-size: 52px;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 30px;
+  margin-bottom: 40px;
   width: 100%;
   display: inline-block;
 }
@@ -27,10 +27,11 @@ margin: 2%;
 
 ul.topnav {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgb(59, 56, 56);
+  margin-bottom: 20px;
+  margin-top:0px;
 }
 
 ul.topnav li {
@@ -94,16 +95,14 @@ overflow: hidden;
 background-color: rgb(59, 56, 56);
 color: rgb(214, 220, 229);
 text-align: left;
-padding-right: 28px;
-padding-top: 20px;
-padding-bottom: 0px;
+padding: 28px 20px;
 text-decoration: none;
 font-size: 26px;
 position: sticky;
-bottom: 0;
 width: 100%;
-margin-top: 60px;
+margin-top: 40px;
 margin-bottom: 0px;
+
 }
 
 
