@@ -97,9 +97,10 @@ text-align: left;
 padding: 28px 20px;
 text-decoration: none;
 font-size: 26px;
-position: fixed;
-  bottom: 0;
-  width: 100%;
+position: sticky;
+bottom: 0;
+width: 100%;
+margin-top: 100px;
 }
 
 
@@ -155,7 +156,47 @@ position: fixed;
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 23px;
+  }
+
+  ul.topnav li a {
+    padding: 18px 14px;
+    font-size: 24px;
+  }
+
+  ul.topnav li {
+    float: none;
+    width: 100%;
+  }
+
+  .koulutus {
+    font-size: 20px;
+  }
+
+  .linkki a {
+    font-size: 20px;
+  }
+
+  table,th,td {
+  font-size: 19px
+  }
+
+  #sivustonlogo > img {
+    padding: 15px 15px;
+    }
+
+    .footer {
+      padding: 19px 15px;
+      font-size: 20px;
+
+      }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
