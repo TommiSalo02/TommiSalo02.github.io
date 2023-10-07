@@ -18,7 +18,7 @@ p {
   font-size: 28px;
   font-family: "Times New Roman", Times, serif;
   margin: auto;
-  max-width: 50%;
+  max-width: 75%;
 }
 
 #osio {
@@ -55,7 +55,7 @@ padding: 20px 20px;
 
 table,th,td {
   border: 1px solid;
-  width: 40%;
+  width: 50%;
   margin: auto;
   font-size: 26px;
   color: rgb(214, 220, 229);
@@ -70,7 +70,7 @@ ul {
 }
 
 .koulutus {
-  width: 40%;
+  width: 50%;
   font-size: 28px;
   margin: auto;
   color: rgb(214, 220, 229);
@@ -78,7 +78,7 @@ ul {
 }
 
 .linkki {
-  width: 40%;
+  width: 50%;
   font-size: 28px;
   margin: auto;
   text-align: center;
