@@ -16,7 +16,7 @@ p {
   font-size: 28px;
   font-family: "Times New Roman", Times, serif;
   margin: auto;
-  max-width: 75%;
+  max-width: 80%;
 }
 
 #osio {
@@ -25,11 +25,12 @@ margin: 2%;
 
 ul.topnav {
   list-style-type: none;
-  padding: 0;
+  padding: 28px 0px;
   overflow: hidden;
   background-color: rgb(59, 56, 56);
   margin-bottom: 20px;
   margin-top:0px;
+  width: 100%;
 }
 
 ul.topnav li {
@@ -41,11 +42,14 @@ ul.topnav li a {
   color: rgb(214, 220, 229);
   text-align: center;
   text-decoration: none;
+  padding: 28x 20px;
   font-size: 26px;
   width: 100%;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #sivustonlogo > img {
+display: inline-block;
 max-width: 100%;
 height: auto;
 padding: 20px 20px;
@@ -89,23 +93,29 @@ ul {
   font-size: 28;
 }
 
-.footer {
-overflow: hidden;
-background-color: rgb(59, 56, 56);
-color: rgb(214, 220, 229);
-text-align: left;
-text-decoration: none;
-font-size: 26px;
-position: fixed;
-bottom: 0;
-left: 0;
-right: 0;
-width: 100%;
-margin-top: 40px;
-margin-bottom: 0px;
+footer {
+  overflow: hidden;
+  background-color: rgb(59, 56, 56);
+  position: fixed;
+  padding: 28px 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  }
+ 
+footer address{
+  display: inline-block;
+  color: rgb(214, 220, 229);
+  text-align: center;
+  text-decoration: none;
+  padding: 28x 20px;
+  font-size: 26px;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
 }
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -141,6 +151,8 @@ margin-bottom: 0px;
 
   #sivustonlogo > img {
     padding: 10px 10px;
+    width: "36x";
+    height: "45px";
     }
 
     .footer {
@@ -183,6 +195,8 @@ font-size: 13px
 
 #sivustonlogo > img {
   padding: 10px 10px;
+  width: "36x";
+  height: "45px";
   }
 
   .footer {
@@ -233,6 +247,3 @@ font-size: 13px
 
       }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
