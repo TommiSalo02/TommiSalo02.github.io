@@ -38,9 +38,9 @@ ul.topnav li a {
 }
 
 #sivustonlogo>img {
-  display: block;
   max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: auto
 }
 
 table,
@@ -94,22 +94,25 @@ footer address {
 }
 
 .grid-container {
-    display: grid;
-    gap: 10px;
-    margin-top: 30px;
-  }
-  .one {
-    grid-column: 2 / 3;
-    grid-row: 1;
-  }
-  .two {
-    grid-column: 3 / 4;
-    grid-row: 1
-  }
-  .three {
-    grid-column: 4 / 5;
-    grid-row: 1
-  }
+  display: grid;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.one {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 3 / 4;
+  grid-row: 1
+}
+
+.three {
+  grid-column: 4 / 5;
+  grid-row: 1
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -154,10 +157,10 @@ footer address {
     font-size: 13px
   }
 
-  #sivustonlogo>img {
+  #sivustonlogo img {
     padding: 10px 10px;
-    max-width: "36x";
-    max-height: "45px";
+    max-width: 36px;
+    max-height: 45px;
   }
 
   ul {
@@ -229,10 +232,10 @@ footer address {
     margin-top: -1.5%;
   }
 
-  #sivustonlogo>img {
+  #sivustonlogo img {
     padding: 10px 10px;
-    max-width: "36x";
-    max-height: "45px";
+    max-width: 36px;
+    max-height: 45px;
   }
 
   footer {
@@ -299,11 +302,27 @@ footer address {
     margin-top: -2%;
   }
 
-  #sivustonlogo>img {
-    padding: 15px 15px;
-      max-width: "54x";
-      max-height: "67.5px";
-    }
+  #sivustonlogo img {
+    padding: 20px 20px;
+    max-width: 71.75px;
+    max-height: 90.75px;
+  }
+  }
+
+  #one>img {
+    width: 71.75px;
+    height: 90.75px;
+  }
+
+  #two {
+    width: 71.75px;
+    height: 90.75px;
+  }
+
+  .three {
+    max-width: 71.75px;
+    max-height: 90.75px;
+  }
 
   footer {
     padding: 24px 0px;
@@ -342,10 +361,10 @@ footer address {
     margin-top: 0px;
   }
 
-  #sivustonlogo>img {
+  #sivustonlogo img {
     padding: 20px 20px;
-    max-width: "71.75x";
-    max-height: "90.75px";
+    max-width: 71.75px;
+    max-height: 90.75px;
   }
 
   table,
@@ -362,6 +381,7 @@ footer address {
   #osio {
     margin: 2%;
   }
+
   .koulutus {
     font-size: 28px;
   }
