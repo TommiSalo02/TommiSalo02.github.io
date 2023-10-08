@@ -6,30 +6,21 @@ body {
 h1 {
   color: rgb(214, 220, 229);
   text-align: center;
-  font-size: 52px;
   font-family: "Times New Roman", Times, serif;
   width: 100%;
 }
 
 p {
   color: rgb(214, 220, 229);
-  font-size: 28px;
   font-family: "Times New Roman", Times, serif;
   margin: auto;
   max-width: 80%;
 }
 
-#osio {
-  margin: 2%;
-}
-
 ul.topnav {
   list-style-type: none;
-  padding: 28px 0px;
   overflow: hidden;
   background-color: rgb(59, 56, 56);
-  margin-bottom: 20px;
-  margin-top: 0px;
   width: 100%;
 }
 
@@ -42,8 +33,6 @@ ul.topnav li a {
   color: rgb(214, 220, 229);
   text-align: center;
   text-decoration: none;
-  padding: 28x 20px;
-  font-size: 26px;
   width: 100%;
   font-family: "Times New Roman", Times, serif;
 }
@@ -52,7 +41,6 @@ ul.topnav li a {
   display: block;
   max-width: 100%;
   height: auto;
-  padding: 20px 20px;
 }
 
 table,
@@ -61,7 +49,6 @@ td {
   border: 1px solid;
   width: 50%;
   margin: auto;
-  font-size: 26px;
   color: rgb(214, 220, 229);
   background-color: rgb(30, 55, 98);
   text-align: center;
@@ -69,13 +56,10 @@ td {
 
 ul {
   list-style-type: none;
-  margin-bottom: 2.5%;
-  margin-top: -2.5%;
 }
 
 .koulutus {
   width: 50%;
-  font-size: 28px;
   margin: auto;
   color: rgb(214, 220, 229);
   text-align: center;
@@ -84,7 +68,6 @@ ul {
 .linkki {
   width: 50%;
   margin: auto;
-  padding-top: 20px;
   text-align: center;
   text-decoration: none;
 }
@@ -92,20 +75,13 @@ ul {
 .linkki a {
   color: rgb(214, 220, 229);
   text-decoration: none;
-  font-size: 28;
 }
 
 footer {
   overflow: hidden;
   background-color: rgb(59, 56, 56);
   position: fixed;
-  padding: 28px 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
   width: 100%;
-  margin-top: 40px;
-  margin-bottom: 0px;
 }
 
 footer address {
@@ -113,8 +89,6 @@ footer address {
   color: rgb(214, 220, 229);
   text-align: center;
   text-decoration: none;
-  padding: 28x 20px;
-  font-size: 26px;
   width: 100%;
   font-family: "Times New Roman", Times, serif;
 }
@@ -134,13 +108,22 @@ footer address {
     font-size: 16px;
   }
 
-  ul.topnav li {
-    float: none;
-    width: 100%;
+  ul.topnav {
+    padding: 14px 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  #osio {
+    margin: 1%;
   }
 
   .koulutus {
     font-size: 14px;
+  }
+
+  .linkki {
+    padding-top: 10px;
   }
 
   .linkki a {
@@ -159,9 +142,18 @@ footer address {
     height: "45px";
   }
 
+  ul {
+    margin-bottom: 1.5%;
+    margin-top: -1.5%;
+  }
+
   footer {
     padding: 10px 0px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
   }
 
   footer address {
@@ -186,13 +178,22 @@ footer address {
     font-size: 16px;
   }
 
-  ul.topnav li {
-    float: none;
-    width: 100%;
+  ul.topnav {
+    padding: 14px 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  #osio {
+    margin: 1%;
   }
 
   .koulutus {
     font-size: 14px;
+  }
+
+  .linkki {
+    padding-top: 10px;
   }
 
   .linkki a {
@@ -205,6 +206,11 @@ footer address {
     font-size: 13px
   }
 
+  ul {
+    margin-bottom: 1.5%;
+    margin-top: -1.5%;
+  }
+
   #sivustonlogo>img {
     padding: 10px 10px;
     width: "36x";
@@ -213,7 +219,11 @@ footer address {
 
   footer {
     padding: 10px 0px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
   }
 
   footer address {
@@ -238,13 +248,22 @@ footer address {
     font-size: 24px;
   }
 
-  ul.topnav li {
-    float: none;
-    width: 100%;
+  ul.topnav {
+    padding: 28px 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  #osio {
+    margin: 2%;
   }
 
   .koulutus {
     font-size: 20px;
+  }
+
+  .linkki {
+    padding-top: 15px;
   }
 
   .linkki a {
@@ -257,19 +276,26 @@ footer address {
     font-size: 19px
   }
 
+  ul {
+    margin-bottom: 2%;
+    margin-top: -2%;
+  }
+
   #sivustonlogo>img {
     padding: 15px 15px;
   }
 
   footer {
-    padding: 14px 0px;
-    margin-top: 20px;
+    padding: 24px 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 40px;
   }
 
   footer address {
-    padding: 19px 15px;
-    font-size: 20px;
-
+    padding: 24x 12px;
+    font-size: 22px;
   }
 }
 
@@ -285,15 +311,15 @@ footer address {
     font-size: 28px;
   }
 
+  ul.topnav li a {
+    padding: 28x 20px;
+    font-size: 26px;
+  }
+
   ul.topnav {
     padding: 28px 0px;
     margin-bottom: 20px;
     margin-top: 0px;
-  }
-
-  ul.topnav li a {
-    padding: 28x 20px;
-    font-size: 26px;
   }
 
   #sivustonlogo>img {
@@ -306,6 +332,14 @@ footer address {
     font-size: 26px;
   }
 
+  ul {
+    margin-bottom: 2.5%;
+    margin-top: -2.5%;
+  }
+
+  #osio {
+    margin: 2%;
+  }
   .koulutus {
     font-size: 28px;
   }
@@ -329,6 +363,5 @@ footer address {
   footer address {
     padding: 28x 20px;
     font-size: 26px;
-    width: 100%;
   }
 }
