@@ -19,7 +19,6 @@ p {
 
 ul.topnav {
   list-style-type: none;
-  overflow: hidden;
   background-color: rgb(59, 56, 56);
   width: 100%;
 }
@@ -78,7 +77,6 @@ ul {
 }
 
 footer {
-  overflow: hidden;
   background-color: rgb(59, 56, 56);
   position: fixed;
   width: 100%;
