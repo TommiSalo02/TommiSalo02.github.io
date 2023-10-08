@@ -81,9 +81,9 @@ ul {
   text-decoration: none;
 }
 
-.sisalto{
-padding-bottom: 100px;
-margin-bottom: 60px;
+.sisalto {
+  padding-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 footer {
@@ -147,18 +147,18 @@ footer address {
 @font-face {
   font-family: 'open_sansregular';
   src: url('opensans-regular.woff2') format('woff2'),
-       url('opensans-regular.woff') format('woff');
+    url('opensans-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 #ulkofontti {
-font-family: 'open_sansregular';
-color: rgb(214, 220, 229);
-text-align: center;
-max-width: 80%;
-margin: auto;
-padding-bottom: 10px;
+  font-family: 'open_sansregular';
+  color: rgb(214, 220, 229);
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 #animaatio {
@@ -168,17 +168,17 @@ padding-bottom: 10px;
   animation-name: takavari;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  margin:auto;
+  margin: auto;
 }
 
 #button1 {
-text-align:center;
-padding: 25px;
+  text-align: center;
+  padding: 25px;
 }
 
 button {
-height: 50px;
-width: 100px;
+  height: 50px;
+  width: 100px;
 }
 
 
@@ -225,7 +225,7 @@ width: 100px;
   }
 
   #ulkofontti {
-  font-size: 14px;
+    font-size: 14px;
   }
 
   #sivustonlogo img {
@@ -263,13 +263,13 @@ width: 100px;
   }
 
   footer address {
-    padding: 10x 8px;
+    padding: 10px 8px;
     font-size: 16px;
   }
 
-  iframe{
-  max-height: 150px;
-  max-width: 200px;
+  iframe {
+    max-height: 150px;
+    max-width: 200px;
   }
 
 }
@@ -319,7 +319,7 @@ width: 100px;
 
   #ulkofontti {
     font-size: 14px;
-    }
+  }
 
   ul {
     margin-bottom: 1.5%;
@@ -356,14 +356,14 @@ width: 100px;
   }
 
   footer address {
-    padding: 10x 8px;
+    padding: 10px 8px;
     font-size: 16px;
   }
 
-  iframe{
+  iframe {
     max-height: 150px;
     max-width: 200px;
-    }
+  }
 
 }
 
@@ -412,7 +412,7 @@ width: 100px;
 
   #ulkofontti {
     font-size: 14px;
-    }
+  }
 
   ul {
     margin-bottom: 2%;
@@ -455,10 +455,10 @@ width: 100px;
     font-size: 18px;
   }
 
-  iframe{
+  iframe {
     max-height: 225px;
     max-width: 300px;
-    }
+  }
 }
 
 
@@ -474,7 +474,7 @@ width: 100px;
   }
 
   ul.topnav li a {
-    padding: 28x 20px;
+    padding: 28px 20px;
     font-size: 26px;
   }
 
@@ -513,7 +513,7 @@ width: 100px;
 
   #ulkofontti {
     font-size: 28px;
-    }
+  }
 
   ul {
     margin-bottom: 2.5%;
@@ -545,12 +545,12 @@ width: 100px;
   }
 
   footer address {
-    padding: 28x 20px;
+    padding: 28px 20px;
     font-size: 26px;
   }
 
-  iframe{
+  iframe {
     max-height: 450px;
     max-width: 600px;
-    }
+  }
 }
