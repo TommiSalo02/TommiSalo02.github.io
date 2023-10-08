@@ -1,8 +1,11 @@
 body {
   background-color: rgb(47, 85, 151);
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
   height: 100%;
   min-height: 100%;
+  padding-bottom: 60px;
 }
 
 h1 {
@@ -77,10 +80,6 @@ ul {
 .linkki a {
   color: rgb(214, 220, 229);
   text-decoration: none;
-}
-
-#footermargin {
-margin-bottom: 60px;
 }
 
 footer {
