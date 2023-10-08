@@ -118,18 +118,21 @@ footer address {
   max-width: 100%;
   width: 100%;
   height: auto;
+  border: 5px solid #555;
 }
 
 #two img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  border: 5px solid #555;
 }
 
 #three img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  border: 5px solid #555;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -387,7 +390,7 @@ footer address {
 }
 
 /* ExtraLarge devices (laptops/desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1150px) {
 
 
   h1 {
