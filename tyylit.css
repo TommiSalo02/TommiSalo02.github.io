@@ -427,22 +427,23 @@ width: 100px;
 
 
   #one img {
-    max-width: 620px;
+    max-width: 600px;
     max-height: 480px;
   }
 
   #two img {
-    max-width: 620px;
+    max-width: 600px;
     max-height: 480px;
   }
 
   #three img {
-    max-width: 620px;
+    max-width: 600px;
     max-height: 480px;
   }
 
   footer {
-    padding: 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     height: 24px;
     bottom: 0px;
     left: 0px;
@@ -450,7 +451,7 @@ width: 100px;
   }
 
   footer address {
-    padding: 24x 12px;
+    padding-right: 12px;
     font-size: 18px;
   }
 
