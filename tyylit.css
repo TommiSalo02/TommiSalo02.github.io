@@ -77,14 +77,16 @@ ul {
 
 .linkki {
   width: 50%;
-  font-size: 28px;
   margin: auto;
+  padding-top: 20px;  
   text-align: center;
+  text-decoration: none;
 }
 
 .linkki a {
-  color: rgb(30, 55, 98);
+  color: rgb(214, 220, 229);
   text-decoration: none;
+  font-size: 28;
 }
 
 .footer {
@@ -101,7 +103,6 @@ right: 0;
 width: 100%;
 margin-top: 40px;
 margin-bottom: 0px;
-
 }
 
 
@@ -143,18 +144,52 @@ margin-bottom: 0px;
     }
 
     .footer {
-      padding: 14px 10px;
       font-size: 16px;
-
       }
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+h1 {
+  font-size: 32px;
+}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+p {
+  font-size: 16px;
+}
+
+ul.topnav li a {
+  padding: 14x 10px;
+  font-size: 16px;
+}
+
+ul.topnav li {
+  float: none;
+  width: 100%;
+}
+
+.koulutus {
+  font-size: 14px;
+}
+
+.linkki a {
+  font-size: 14px;
+}
+
+table,th,td {
+font-size: 13px
+}
+
+#sivustonlogo > img {
+  padding: 10px 10px;
+  }
+
+  .footer {
+    font-size: 16px;
+    }
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
