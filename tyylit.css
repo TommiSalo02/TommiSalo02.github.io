@@ -63,7 +63,7 @@ ul {
 }
 
 .koulutus {
-  width: 50%;
+  width: 80%;
   margin: auto;
   color: rgb(214, 220, 229);
   text-align: center;
@@ -207,7 +207,7 @@ width: 100px;
   }
 
   .koulutus {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .linkki {
@@ -300,7 +300,7 @@ width: 100px;
   }
 
   .koulutus {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .linkki {
