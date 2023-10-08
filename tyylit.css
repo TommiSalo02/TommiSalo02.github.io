@@ -215,8 +215,7 @@ footer address {
 
   footer {
     padding: 10px 0px;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    height: 60px;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -300,7 +299,7 @@ footer address {
 
   footer {
     padding: 10px 0px;
-    height: 100px;
+    height: 60px;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -385,10 +384,10 @@ footer address {
 
   footer {
     padding: 24px 0px;
+    height: 60px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-top: 40px;
   }
 
   footer address {
@@ -470,10 +469,10 @@ footer address {
 
   footer {
     padding: 28px 0px;
+    height: 60px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-top: 40px;
   }
 
   footer address {
