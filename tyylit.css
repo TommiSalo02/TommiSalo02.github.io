@@ -93,6 +93,24 @@ footer address {
   font-family: "Times New Roman", Times, serif;
 }
 
+.grid-container {
+    display: grid;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .one {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 3 / 4;
+    grid-row: 1
+  }
+  .three {
+    grid-column: 4 / 5;
+    grid-row: 1
+  }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   h1 {
@@ -138,8 +156,8 @@ footer address {
 
   #sivustonlogo>img {
     padding: 10px 10px;
-    width: "36x";
-    height: "45px";
+    max-width: "36x";
+    max-height: "45px";
   }
 
   ul {
@@ -213,8 +231,8 @@ footer address {
 
   #sivustonlogo>img {
     padding: 10px 10px;
-    width: "36x";
-    height: "45px";
+    max-width: "36x";
+    max-height: "45px";
   }
 
   footer {
@@ -283,7 +301,9 @@ footer address {
 
   #sivustonlogo>img {
     padding: 15px 15px;
-  }
+      max-width: "54x";
+      max-height: "67.5px";
+    }
 
   footer {
     padding: 24px 0px;
@@ -324,6 +344,8 @@ footer address {
 
   #sivustonlogo>img {
     padding: 20px 20px;
+    max-width: "71.75x";
+    max-height: "90.75px";
   }
 
   table,
