@@ -5,7 +5,6 @@ body {
   border: 0;
   height: 100%;
   min-height: 100%;
-  padding-bottom: 60px;
 }
 
 h1 {
@@ -80,6 +79,11 @@ ul {
 .linkki a {
   color: rgb(214, 220, 229);
   text-decoration: none;
+}
+
+.sisalto{
+padding-bottom: 100px;
+margin-bottom: 60px;
 }
 
 footer {
