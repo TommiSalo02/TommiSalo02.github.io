@@ -370,11 +370,11 @@ width: 100px;
 
 @media only screen and (min-width: 992px) {
   h1 {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   ul.topnav li a {
@@ -383,7 +383,7 @@ width: 100px;
   }
 
   ul.topnav {
-    padding: 28px 0px;
+    padding: 24px 0px;
     margin-bottom: 20px;
     margin-top: 0px;
   }
@@ -411,7 +411,7 @@ width: 100px;
   }
 
   #ulkofontti {
-    font-size: 16px;
+    font-size: 14px;
     }
 
   ul {
@@ -427,23 +427,23 @@ width: 100px;
 
 
   #one img {
-    max-width: 640px;
+    max-width: 620px;
     max-height: 480px;
   }
 
   #two img {
-    max-width: 640px;
+    max-width: 620px;
     max-height: 480px;
   }
 
   #three img {
-    max-width: 640px;
+    max-width: 620px;
     max-height: 480px;
   }
 
   footer {
-    padding: 24px 0px;
-    height: 60px;
+    padding: 20px 0px;
+    height: 40px;
     bottom: 0px;
     left: 0px;
     right: 0px;
