@@ -144,6 +144,20 @@ footer address {
   border: 5px solid #555;
 }
 
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('opensans-regular.woff2') format('woff2'),
+       url('opensans-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#ulkofontti {
+font-family: 'open_sansregular';
+color: rgb(214, 220, 229);
+text-align: center;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   h1 {
@@ -184,7 +198,11 @@ footer address {
   table,
   th,
   td {
-    font-size: 13px
+    font-size: 14px;
+  }
+
+  #ulkofontti {
+  font-size: 14px;
   }
 
   #sivustonlogo img {
@@ -268,8 +286,12 @@ footer address {
   table,
   th,
   td {
-    font-size: 13px
+    font-size: 14px;
   }
+
+  #ulkofontti {
+    font-size: 14px;
+    }
 
   ul {
     margin-bottom: 1.5%;
@@ -315,16 +337,16 @@ footer address {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   h1 {
-    font-size: 38px;
+    font-size: 36px;
   }
 
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   ul.topnav li a {
     padding: 18px 14px;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   ul.topnav {
@@ -338,22 +360,26 @@ footer address {
   }
 
   .koulutus {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .linkki {
-    padding-top: 15px;
+    padding-top: 14px;
   }
 
   .linkki a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   table,
   th,
   td {
-    font-size: 18px;
+    font-size: 16px;
   }
+
+  #ulkofontti {
+    font-size: 16px;
+    }
 
   ul {
     margin-bottom: 2%;
@@ -445,6 +471,10 @@ footer address {
   td {
     font-size: 26px;
   }
+
+  #ulkofontti {
+    font-size: 28px;
+    }
 
   ul {
     margin-bottom: 2.5%;
