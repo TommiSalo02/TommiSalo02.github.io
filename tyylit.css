@@ -37,10 +37,10 @@ ul.topnav li a {
   font-family: "Times New Roman", Times, serif;
 }
 
-#sivustonlogo>img {
+#sivustonlogo img {
   max-width: 100%;
   width: 100%;
-  height: auto
+  height: auto;
 }
 
 table,
@@ -106,12 +106,30 @@ footer address {
 
 .two {
   grid-column: 3 / 4;
-  grid-row: 1
+  grid-row: 1;
 }
 
 .three {
   grid-column: 4 / 5;
-  grid-row: 1
+  grid-row: 1;
+}
+
+#one img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+#two img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+#three img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -125,7 +143,7 @@ footer address {
   }
 
   ul.topnav li a {
-    padding: 14x 10px;
+    padding: 14px 10px;
     font-size: 16px;
   }
 
@@ -161,6 +179,21 @@ footer address {
     padding: 10px 10px;
     max-width: 36px;
     max-height: 45px;
+  }
+
+  #one img {
+    max-width: 128px;
+    max-height: 96px;
+  }
+
+  #two img {
+    max-width: 128px;
+    max-height: 96px;
+  }
+
+  #three img {
+    max-width: 128px;
+    max-height: 96px;
   }
 
   ul {
@@ -195,7 +228,7 @@ footer address {
   }
 
   ul.topnav li a {
-    padding: 14x 10px;
+    padding: 14px 10px;
     font-size: 16px;
   }
 
@@ -236,6 +269,21 @@ footer address {
     padding: 10px 10px;
     max-width: 36px;
     max-height: 45px;
+  }
+
+  #one img {
+    max-width: 128px;
+    max-height: 96px;
+  }
+
+  #two img {
+    max-width: 128px;
+    max-height: 96px;
+  }
+
+  #three img {
+    max-width: 128px;
+    max-height: 96px;
   }
 
   footer {
@@ -294,7 +342,7 @@ footer address {
   table,
   th,
   td {
-    font-size: 19px
+    font-size: 19px;
   }
 
   ul {
@@ -307,21 +355,21 @@ footer address {
     max-width: 71.75px;
     max-height: 90.75px;
   }
+
+
+  #one img {
+    max-width: 320px;
+    max-height: 240px;
   }
 
-  #one>img {
-    width: 71.75px;
-    height: 90.75px;
+  #two img {
+    max-width: 320px;
+    max-height: 240px;
   }
 
-  #two {
-    width: 71.75px;
-    height: 90.75px;
-  }
-
-  .three {
-    max-width: 71.75px;
-    max-height: 90.75px;
+  #three img {
+    max-width: 320px;
+    max-height: 240px;
   }
 
   footer {
@@ -365,6 +413,21 @@ footer address {
     padding: 20px 20px;
     max-width: 71.75px;
     max-height: 90.75px;
+  }
+
+  #one img {
+    max-width: 320px;
+    max-height: 240px;
+  }
+
+  #two img {
+    max-width: 320px;
+    max-height: 240px;
+  }
+
+  #three img {
+    max-width: 320px;
+    max-height: 240px;
   }
 
   table,
