@@ -215,7 +215,7 @@ footer address {
 
   footer {
     padding: 10px 0px;
-    height: 60px;
+    height: 40px;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -299,7 +299,7 @@ footer address {
 
   footer {
     padding: 10px 0px;
-    height: 60px;
+    height: 40px;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -315,11 +315,11 @@ footer address {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   h1 {
-    font-size: 45px;
+    font-size: 38px;
   }
 
   p {
-    font-size: 23px;
+    font-size: 18px;
   }
 
   ul.topnav li a {
@@ -338,7 +338,7 @@ footer address {
   }
 
   .koulutus {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .linkki {
@@ -346,13 +346,13 @@ footer address {
   }
 
   .linkki a {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   table,
   th,
   td {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   ul {
@@ -392,7 +392,7 @@ footer address {
 
   footer address {
     padding: 24x 12px;
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -401,7 +401,7 @@ footer address {
 
 
   h1 {
-    font-size: 52px;
+    font-size: 60px;
   }
 
   p {
