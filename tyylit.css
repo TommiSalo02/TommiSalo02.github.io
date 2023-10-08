@@ -156,7 +156,21 @@ footer address {
 font-family: 'open_sansregular';
 color: rgb(214, 220, 229);
 text-align: center;
+max-width: 80%;
+margin: auto;
+padding-bottom: 10px;
 }
+
+#animaatio {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(59, 56, 56);
+  animation-name: takavari;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin:auto;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
