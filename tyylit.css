@@ -181,6 +181,11 @@ button {
   width: 100px;
 }
 
+iframe {
+  margin: auto;
+  display: block;
+}
+
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -202,12 +207,21 @@ button {
     margin-top: 0px;
   }
 
-  #osio {
+  #osio1 {
+    margin: 5%;
+  }
+
+  #osio2 {
+    margin: 5%;
+  }
+
+  #osio3 {
     margin: 5%;
   }
 
   .koulutus {
     font-size: 16px;
+    padding: 10px;
   }
 
   .linkki {
@@ -295,12 +309,21 @@ button {
     margin-top: 0px;
   }
 
-  #osio {
+  #osio1 {
+    margin: 5%;
+  }
+
+  #osio2 {
+    margin: 5%;
+  }
+
+  #osio3 {
     margin: 5%;
   }
 
   .koulutus {
     font-size: 16px;
+    padding: 10px;
   }
 
   .linkki {
@@ -388,12 +411,21 @@ button {
     margin-top: 0px;
   }
 
-  #osio {
+  #osio1 {
+    margin: 5%;
+  }
+
+  #osio2 {
+    margin: 5%;
+  }
+
+  #osio3 {
     margin: 5%;
   }
 
   .koulutus {
     font-size: 26px;
+    padding: 16px;
   }
 
   .linkki {
@@ -520,12 +552,21 @@ button {
     margin-top: -2.5%;
   }
 
-  #osio {
+  #osio1 {
+    margin: 2%;
+  }
+
+  #osio2 {
+    margin: 2%;
+  }
+
+  #osio3 {
     margin: 2%;
   }
 
   .koulutus {
     font-size: 28px;
+    padding: 20px;
   }
 
   .linkki {
