@@ -156,12 +156,12 @@ footer address{
     }
 
     footer {
-    padding: 14px 0px;
+    padding: 10px 0px;
     margin-top: 20px;
     }
 
     footer address {
-      padding: 14x 10px;
+      padding: 10x 8px;
       font-size: 16px;
       }
 
@@ -206,12 +206,12 @@ font-size: 13px
   }
 
   footer {
-    padding: 14px 0px;
+    padding: 10px 0px;
     margin-top: 20px;
     }
 
   footer address {
-    padding: 14x 10px;
+    padding: 10x 8px;
     font-size: 16px;
     }
 
@@ -264,3 +264,6 @@ font-size: 13px
 
       }
 }
+
+/* ExtraLarge devices (laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
