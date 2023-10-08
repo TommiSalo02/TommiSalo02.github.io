@@ -20,7 +20,7 @@ p {
 }
 
 #osio {
-margin: 2%;
+  margin: 2%;
 }
 
 ul.topnav {
@@ -29,7 +29,7 @@ ul.topnav {
   overflow: hidden;
   background-color: rgb(59, 56, 56);
   margin-bottom: 20px;
-  margin-top:0px;
+  margin-top: 0px;
   width: 100%;
 }
 
@@ -48,14 +48,16 @@ ul.topnav li a {
   font-family: "Times New Roman", Times, serif;
 }
 
-#sivustonlogo > img {
-display: block;
-max-width: 100%;
-height: auto;
-padding: 20px 20px;
+#sivustonlogo>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 20px 20px;
 }
 
-table,th,td {
+table,
+th,
+td {
   border: 1px solid;
   width: 50%;
   margin: auto;
@@ -82,7 +84,7 @@ ul {
 .linkki {
   width: 50%;
   margin: auto;
-  padding-top: 20px;  
+  padding-top: 20px;
   text-align: center;
   text-decoration: none;
 }
@@ -104,9 +106,9 @@ footer {
   width: 100%;
   margin-top: 40px;
   margin-bottom: 0px;
-  }
- 
-footer address{
+}
+
+footer address {
   display: inline-block;
   color: rgb(214, 220, 229);
   text-align: center;
@@ -145,75 +147,79 @@ footer address{
     font-size: 14px;
   }
 
-  table,th,td {
-  font-size: 13px
+  table,
+  th,
+  td {
+    font-size: 13px
   }
 
-  #sivustonlogo > img {
+  #sivustonlogo>img {
     padding: 10px 10px;
     width: "36x";
     height: "45px";
-    }
-
-    footer {
-    padding: 10px 0px;
-    margin-top: 20px;
-    }
-
-    footer address {
-      padding: 10x 8px;
-      font-size: 16px;
-      }
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-h1 {
-  font-size: 32px;
-}
-
-p {
-  font-size: 16px;
-}
-
-ul.topnav li a {
-  padding: 14x 10px;
-  font-size: 16px;
-}
-
-ul.topnav li {
-  float: none;
-  width: 100%;
-}
-
-.koulutus {
-  font-size: 14px;
-}
-
-.linkki a {
-  font-size: 14px;
-}
-
-table,th,td {
-font-size: 13px
-}
-
-#sivustonlogo > img {
-  padding: 10px 10px;
-  width: "36x";
-  height: "45px";
   }
 
   footer {
     padding: 10px 0px;
     margin-top: 20px;
-    }
+  }
 
   footer address {
     padding: 10x 8px;
     font-size: 16px;
-    }
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  ul.topnav li a {
+    padding: 14x 10px;
+    font-size: 16px;
+  }
+
+  ul.topnav li {
+    float: none;
+    width: 100%;
+  }
+
+  .koulutus {
+    font-size: 14px;
+  }
+
+  .linkki a {
+    font-size: 14px;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 13px
+  }
+
+  #sivustonlogo>img {
+    padding: 10px 10px;
+    width: "36x";
+    height: "45px";
+  }
+
+  footer {
+    padding: 10px 0px;
+    margin-top: 20px;
+  }
+
+  footer address {
+    padding: 10x 8px;
+    font-size: 16px;
+  }
 
 }
 
@@ -245,25 +251,84 @@ font-size: 13px
     font-size: 20px;
   }
 
-  table,th,td {
-  font-size: 19px
+  table,
+  th,
+  td {
+    font-size: 19px
   }
 
-  #sivustonlogo > img {
+  #sivustonlogo>img {
     padding: 15px 15px;
-    }
+  }
 
-    footer {
-      padding: 14px 0px;
-      margin-top: 20px;
-      }
+  footer {
+    padding: 14px 0px;
+    margin-top: 20px;
+  }
 
-    footer address {
-      padding: 19px 15px;
-      font-size: 20px;
+  footer address {
+    padding: 19px 15px;
+    font-size: 20px;
 
-      }
+  }
 }
 
 /* ExtraLarge devices (laptops/desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+
+  h1 {
+    font-size: 52px;
+  }
+
+  p {
+    font-size: 28px;
+  }
+
+  ul.topnav {
+    padding: 28px 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  ul.topnav li a {
+    padding: 28x 20px;
+    font-size: 26px;
+  }
+
+  #sivustonlogo>img {
+    padding: 20px 20px;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 26px;
+  }
+
+  .koulutus {
+    font-size: 28px;
+  }
+
+  .linkki {
+    padding-top: 20px;
+  }
+
+  .linkki a {
+    font-size: 28px;
+  }
+
+  footer {
+    padding: 28px 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 40px;
+  }
+
+  footer address {
+    padding: 28x 20px;
+    font-size: 26px;
+    width: 100%;
+  }
+}
