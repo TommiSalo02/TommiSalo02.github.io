@@ -8,9 +8,7 @@ h1 {
   text-align: center;
   font-size: 52px;
   font-family: "Times New Roman", Times, serif;
-  margin-bottom: 40px;
   width: 100%;
-  display: inline-block;
 }
 
 p {
@@ -42,7 +40,6 @@ ul.topnav li a {
   display: inline-block;
   color: rgb(214, 220, 229);
   text-align: center;
-  padding: 28px 20px;
   text-decoration: none;
   font-size: 26px;
   width: 100%;
@@ -95,10 +92,12 @@ overflow: hidden;
 background-color: rgb(59, 56, 56);
 color: rgb(214, 220, 229);
 text-align: left;
-padding: 28px 20px;
 text-decoration: none;
 font-size: 26px;
-position: sticky;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
 width: 100%;
 margin-top: 40px;
 margin-bottom: 0px;
